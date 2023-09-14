@@ -2,6 +2,7 @@
 
 ## Overview of the Analysis
 
+
 Purpose 
 
 The purpose of this analysis was to build a machine learning model that can predict whether a loan is healthy(0) or has a high risk of defaulting(1) based on finacial features. The analysis aims to assess the performance of a logistic regression model and address class imbalance in the dataset. My process consisted of:

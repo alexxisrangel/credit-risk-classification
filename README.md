@@ -19,8 +19,9 @@ The data consists of loan_status as our labels and loan_size, interest_rate, bor
 Variables
 
 The variable being predicted is loan_status as a binary classification task, where:
-    - 0 typically represents healthy loan(low risk of defaulting)
-    - 1 typically represents high-risk loans(high risk of defaulting)
+
+- 0 typically represents healthy loan(low risk of defaulting)
+- 1 typically represents high-risk loans(high risk of defaulting)
 To assess the class distribution, the code uses 'y.value_counts()', which provides information about how many loans fall into these two categories 
 
 Processes

@@ -23,7 +23,8 @@ The variable being predicted is loan_status as a binary classification task, whe
     - 1 typically represents high-risk loans(high risk of defaulting)
 To assess the class distribution, the code uses 'y.value_counts()', which provides information about how many loans fall into these two categories 
 
-# Processes:
+Processes
+
 - Data Loading: The dataset is loaded into a pandas DataFrame
 - Data Preprocessing: The data is seperated into features(X) and the target variable(y).
 - Train-Test Split: The dataset is split into training and testing sets to evaluate model performance 
@@ -33,7 +34,8 @@ To assess the class distribution, the code uses 'y.value_counts()', which provid
 - Rebuilding and Retraining Model: A logistic regression model is re-instantiated  and trained on the resampled training data 
 - Reevaluation: The performance of the updated model is assessed using the same evaluation metrics
 
-# Methods and Tools 
+Methods and Tools 
+
 - Logistic Regression: A logistic regression model is used for binary classifiation. It's a common choice for such tasks
 - Train-Test Split: The dataset is split into training and testing subsets to evaluate the model's generalization performance 
 - Random Oversampling: Random oversampling is applied using the 'RandomOverSampler' from the 'imblearn' library to address class imbalance. This technique generates synthetic c.   samples for the minority class to balance the class distribution 

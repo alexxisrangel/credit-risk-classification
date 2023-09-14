@@ -46,32 +46,38 @@ In summary, the analysis aims to build a logistic regression model to predict lo
 
 ## Results
 
-* Machine Learning Model 1:
+Machine Learning Model 1
 
 Accuracy Score
+
 The accuracy score for Model 1 is approximately 0.9924. This score represents the overall accuracy of the modelin classifying both healthy and high-risk loans. An accuracy score of 0.99 indicates that the model correctly predicts the loan status for approximately 99% 
 
 Precision Score
+
 Precision is provided for both classes:
   - Precision for "Actual 0" (healthy loans) is 1.00. This means that when the model predicts a loan as healthy, it is corrected 100% of the time for this class
   - Precision for "Actual 1" (high-risk loans) is 0.87. This indicates that when the model predicts a loan as high-risk, it is correct about 87% of the time for this class.
 
 Recall Score
+
 Recall is provided for both classes:
   - Recal for "Actual 0" (healthy loans) is 1.00. This means that the model correctly identifies 100% if all actual healthy loans
   - Recall for "Actual 1" (high-risk loans) is 0.98. This indicates that the model correclty identifies about 89% of all actual high-risk loans. 
 
 
-* Machine Learning Model 2:
+Machine Learning Model 2
 Accuracy Score
+
 The accuracy score for model 2 is approximately 0.9952. This score represents the overall accuracy of the modelin classifying both healthy and high-risk loans. An accuracy score of 0.9952 indicates that the model correctly predicts the loan status for approximately 99% and performed slighly better than model 1.  
 
 Precision Score
+
 Precision is provided for both classes:
   - Precision for "Actual 0" (healthy loans) is 1.00. This means that when the model predicts a loan as healthy, it is corrected 100% of the time for this class
   - Precision for "Actual 1" (high-risk loans) is 0.87. This indicates that when the model predicts a loan as high-risk, it is correct about 87% of the time for this class. Model 2 performed the same as model 1 when it came to Percision. 
 
 Recall Score
+
 Recall is provided for both classes:
   - Recal for "Actual 0" (healthy loans) is 1.00. This means that the model correctly identifies 100% if all actual healthy loans
   - Recall for "Actual 1" (high-risk loans) is 1.00. This indicates that the model correclty identifies about 89% of all actual high-risk loans. Model 2 performed better than model 1 in this aspect. 
@@ -83,6 +89,7 @@ Both Model 1 and Model 2 show strong overall performance. Model 2 had a higher b
 Performance does in fact depend on the problem we are trying to solve and we have to take into consideration the costs or consequences associated with misclassification. If our shareholder finds it more cirtical to correctly predict high-risk loans (minimizing false neagatives) while accepting false positives, Model 2 with higher recall (0.89) for high-risk loans may be prefered. If a balance between minimizing false positives and false negatives, Model 1 could be considered due to slighly higher percision of (0.8747) for high-risk loans 
 
 Considerations
+
 Model 1 may be more conservative in flagging high-risk loans, reducing the number of potentially risky loans that are missed (false negatives). 
 Model 2 may be more agressive in flagging high-loans, which could lead to identifying more risky loans but may also be a result of more false positives. The tradeoff beterrn precision and recall should be carefully  considered when deciding which model is best for practical implications of false positives and false negatives 
 

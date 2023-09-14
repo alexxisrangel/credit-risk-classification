@@ -48,7 +48,7 @@ In summary, the analysis aims to build a logistic regression model to predict lo
 
 ## Results
 
-Machine Learning Model 1
+Model 1
 
 Accuracy Score
 
@@ -67,7 +67,8 @@ Recall is provided for both classes:
   - Recall for "Actual 1" (high-risk loans) is 0.98. This indicates that the model correclty identifies about 89% of all actual high-risk loans. 
 
 
-Machine Learning Model 2
+Model 2
+
 Accuracy Score
 
 The accuracy score for model 2 is approximately 0.9952. This score represents the overall accuracy of the modelin classifying both healthy and high-risk loans. An accuracy score of 0.9952 indicates that the model correctly predicts the loan status for approximately 99% and performed slighly better than model 1.  

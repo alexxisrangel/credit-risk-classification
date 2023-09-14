@@ -12,10 +12,12 @@ The purpose of this analysis was to build a machine learning model that can pred
 5. Train-Test Split 
 6. Shaping of Training Data 
 
-# Data
+Data
+
 The data consists of loan_status as our labels and loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks total_debt for our features. The aim for our data was to predict creditworthiness of borrorwers. A value of 0 under loan_status indicates a healthy loan, where as a 0 indicates a high risk of defaulting.
 
-# Variables
+Variables
+
 The variable being predicted is loan_status as a binary classification task, where:
     - 0 typically represents healthy loan(low risk of defaulting)
     - 1 typically represents high-risk loans(high risk of defaulting)
